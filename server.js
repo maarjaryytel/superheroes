@@ -14,13 +14,13 @@ const supervillains = require("supervillains");
 //console.log(supervillains.all);
 //console.log(supervillains.random());
 const supereheroes = require("superheroes");
-console.log(supervillains.random());
+//console.log(supervillains.random());
 
-supervillains.all.forEach(supervillain = > {
-    console.log(supervillains.random());
-})
+supervillains.all.forEach(supervillain => {
+    console.log(supervillain);
+});
 
-console.log(ˋ${superheroes.random()} fights ${supervillains.random()}ˋ);
+console.log(`${superheroes.random()} fights ${supervillains.random()}`);
 
 
 
